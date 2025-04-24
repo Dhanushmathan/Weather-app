@@ -16,16 +16,17 @@ const WeatherBackground = ({ weatherData }) => {
                     setVideoSrc(sunnyVideo);
                     break;
                 case "clouds":
-                    setVideoSrc(clouds);
+                    if (weatherData.weather[0].description.toLowerCase().includes("night")) {
+                        setVideoSrc(nightVideo);
+                    } else {
+                        setVideoSrc(clouds);
+                    }
                     break;
                 case "rain":
                     setVideoSrc(rainVideo);
                     break;
                 case "snow":
                     setVideoSrc(winterVideo);
-                    break;
-                case "night":
-                    setVideoSrc(nightVideo);
                     break;
                 default:
                     setVideoSrc(clouds);

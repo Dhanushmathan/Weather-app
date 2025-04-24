@@ -108,10 +108,10 @@ const WeatherPopupBox = ({ city, setCity, weatherData, getWeather }) => {
                             Temp: <br /> {weatherData?.main?.temp}
                         </p>
                         <p className="font-semibold">
-                            Humidity: <br /> {weatherData?.main?.humidity}
+                            Humidity: <br /> {weatherData?.main?.humidity} %
                         </p>
                         <p className="font-semibold">
-                            Wind Speed: <br /> {weatherData?.wind?.speed}
+                            Wind Speed: <br /> {weatherData?.wind?.speed} km/h
                         </p>
                         <p className="font-semibold">
                             Feels like: <br /> {weatherData?.main?.feels_like}
