@@ -1,12 +1,21 @@
-# React + Vite
+# WeatherWhiz ⛅
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive real-time weather app that helps you check weather conditions with style!
 
-Currently, two official plugins are available:
+### Live On:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌦️ Features
+
+- Real-time weather updates using OpenWeather API  
+- Current temperature, weather conditions, and location  
+- Clean and responsive UI  
+- Built with ReactJS and TailwindCSS 
+- Used weather API openweathermap.org
+
+## 🚀 Getting Started
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/weatherwhiz.git
